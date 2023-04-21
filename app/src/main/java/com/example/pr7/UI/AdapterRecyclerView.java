@@ -1,4 +1,4 @@
-package com.example.pr7;
+package com.example.pr7.UI;
 
 import android.content.Context;
 import android.util.Log;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.pr7.R;
+import com.example.pr7.data.Item;
 
 import java.util.List;
 

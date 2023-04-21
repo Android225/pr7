@@ -1,4 +1,4 @@
-package com.example.pr7;
+package com.example.pr7.data;
 
 public class Item {
     int imageId;

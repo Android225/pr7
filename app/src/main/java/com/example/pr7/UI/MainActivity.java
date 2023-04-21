@@ -1,10 +1,12 @@
-package com.example.pr7;
+package com.example.pr7.UI;
 
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
+
+import com.example.pr7.R;
 
 public class MainActivity extends AppCompatActivity {
 
