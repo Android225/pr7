@@ -1,10 +1,10 @@
-package com.example.pr7.data;
+package com.example.pr7.data.dataSource;
 
 public class Item {
-    int imageId;
+    Integer imageId;
     String itemText;
 
-    public Item(int imageId, String itemText) {
+    public Item(Integer imageId, String itemText) {
         super();
         this.imageId = imageId;
         this.itemText = itemText;
@@ -18,11 +18,11 @@ public class Item {
         return itemText;
     }
 
-    public void setImageId(int imageId) {
+    public void setImageId(Integer imageId) {
         this.imageId = imageId;
     }
 
-    public int getImageId() {
+    public Integer getImageId() {
         return imageId;
     }
 }

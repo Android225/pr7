@@ -1,4 +1,4 @@
-package com.example.pr7.UI;
+package com.example.pr7.UI.Views;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 
 import com.example.pr7.R;
-import com.example.pr7.data.Item;
+import com.example.pr7.data.dataSource.Item;
 
 import java.util.ArrayList;
 import java.util.List;

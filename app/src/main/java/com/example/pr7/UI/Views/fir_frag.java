@@ -1,4 +1,4 @@
-package com.example.pr7.UI;
+package com.example.pr7.UI.Views;
 
 import androidx.fragment.app.Fragment;
 

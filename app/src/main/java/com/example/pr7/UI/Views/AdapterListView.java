@@ -1,4 +1,4 @@
-package com.example.pr7.UI;
+package com.example.pr7.UI.Views;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.pr7.R;
-import com.example.pr7.data.Item;
+import com.example.pr7.data.dataSource.Item;
 
 import java.util.List;
 

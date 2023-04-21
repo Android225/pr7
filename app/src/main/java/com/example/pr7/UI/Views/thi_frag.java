@@ -1,4 +1,4 @@
-package com.example.pr7.UI;
+package com.example.pr7.UI.Views;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.pr7.R;
-import com.example.pr7.data.Item;
+import com.example.pr7.data.dataSource.Item;
 
 import java.util.ArrayList;
 import java.util.List;

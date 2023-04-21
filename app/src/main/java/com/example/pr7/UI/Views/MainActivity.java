@@ -1,12 +1,15 @@
-package com.example.pr7.UI;
+package com.example.pr7.UI.Views;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.example.pr7.R;
+import com.example.pr7.UI.ViewModels.ViewModel;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
                 .setReorderingAllowed(true)
                 .add(R.id.fragment_container_view,first__)
                 .commit();
+
+        ViewModel viewModel = new ViewModelProvider(this).get(ViewModel.class);
+        viewModel.addItem(1, "text");
+        viewModel.getItemID().observe( this, item -> {
+            Log.d("ITEM",item.getItem().getText());
+        });
+
     }
 
     public void second_click(View view) {
@@ -49,4 +59,6 @@ public class MainActivity extends AppCompatActivity {
         fTrans.replace(R.id.fragment_container_view, third__).addToBackStack(null).commit();
 
     }
+
+
 }
