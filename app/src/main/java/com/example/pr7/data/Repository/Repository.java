@@ -1,7 +1,7 @@
-package com.example.pr7.data;
+package com.example.pr7.data.Repository;
 
 
-import com.example.pr7.data.dataSource.Item;
+import com.example.pr7.data.Models.Item;
 
 public class Repository {
 

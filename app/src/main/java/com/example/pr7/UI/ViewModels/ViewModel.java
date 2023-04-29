@@ -4,8 +4,8 @@ package com.example.pr7.UI.ViewModels;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.pr7.data.Repository;
-import com.example.pr7.data.dataSource.Item;
+import com.example.pr7.data.Repository.Repository;
+import com.example.pr7.data.Models.Item;
 
 public class ViewModel extends androidx.lifecycle.ViewModel {
 

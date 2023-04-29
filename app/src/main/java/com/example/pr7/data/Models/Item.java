@@ -1,4 +1,4 @@
-package com.example.pr7.data.dataSource;
+package com.example.pr7.data.Models;
 
 public class Item {
     Integer imageId;

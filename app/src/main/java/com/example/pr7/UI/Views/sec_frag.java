@@ -13,7 +13,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 
 import com.example.pr7.R;
-import com.example.pr7.data.dataSource.Item;
+import com.example.pr7.data.Models.Item;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.pr7.R;
-import com.example.pr7.data.dataSource.Item;
+import com.example.pr7.data.Models.Item;
 
 import java.util.ArrayList;
 import java.util.List;
